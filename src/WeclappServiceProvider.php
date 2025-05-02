@@ -1,6 +1,6 @@
 <?php
 
-namespace TilmannTMS\WeclappLaravelApi;
+namespace TilmannTMS\Weclapp;
 
 use Illuminate\Support\ServiceProvider;
 

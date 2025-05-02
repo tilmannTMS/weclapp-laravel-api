@@ -21,10 +21,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "TilmannTMS\\WeclappLaravelApi\\WeclappServiceProvider"
+        "TilmannTMS\\Weclapp\\WeclappServiceProvider"
       ],
       "aliases": {
-        "Weclapp": "TilmannTMS\\WeclappLaravelApi\\Facades\\Weclapp"
+        "Weclapp": "TilmannTMS\\Weclapp\\Facades\\Weclapp"
       }
     }
   },
