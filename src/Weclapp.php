@@ -39,7 +39,7 @@ class Weclapp
 
             return json_decode($response->getBody()->getContents(), true);
         } catch (\Exception $e) {
-            throw new WeclappException($e->getMessage(), $e->getCode(), $e);
+          //  throw new WeclappException($e->getMessage(), $e->getCode(), $e);
         }
     }
 
